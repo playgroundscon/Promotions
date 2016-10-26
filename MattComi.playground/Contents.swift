@@ -37,6 +37,9 @@ struct Promo {
         let options: [String : Any] = ["promo": self]
         
         UIApplication.shared.open(url, options: options, completionHandler: nil)
+        print("This promo code has been claimed, but you were SO close!")
+        print("Subscribe to newsletter to stay informed of new codes: www.playgroundscon.com")
+        print("Follow us on twitter also: @PlaygroundsCon \n")
         print("Thank you for your support ❤️")
     }
 }
