@@ -13,6 +13,7 @@ import UIKit
 enum Available {
     case now
     case tomorrow
+    case none
 }
 
 
@@ -51,7 +52,7 @@ let mattComiPromo = Promo(
     code: "MATTCOMI",
     discount: 50,
     limit: 1,
-    available: .now)
+    available: .none)
 
 mattComiPromo.claim()
 
