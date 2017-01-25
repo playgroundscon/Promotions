@@ -51,7 +51,7 @@ let jasonBrennanPromo = Promo(
     code: "JASONBRENNAN",
     discount: 50,
     limit: 1,
-    available: .now)
+    available: .none)
 
 jasonBrennanPromo.claim()
 
